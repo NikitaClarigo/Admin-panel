@@ -1,0 +1,74 @@
+.Signup {
+    flex: 4 1;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.Signup .form{
+    max-width: 20rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 4rem 4.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    color:  #121212;
+    background: #00008b0a;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.Signup .text-large {
+    font-size: 2rem;
+    font-weight: 600;
+    color:  #121212;
+}
+.Signup .text-normal {
+    font-size: 1rem;
+    font-weight: 400;
+    color:  #121212;
+}
+.Signup .text-links {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1a73e8;
+}
+.Signup .signin{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+.Signup .input-control {
+    margin-bottom: 1.25rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: inherit;
+    width: 88%;
+    height: auto;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.Signup .input-submit {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+    min-width: 40%;
+    height: auto;
+    padding: 0.65rem 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    color: #ffffff;
+    background: #1a73e8;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    text-transform: capitalize;
+    text-rendering: optimizeLegibility;
+}
